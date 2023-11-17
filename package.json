@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "author": {
+    "name": "Lavanya"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "nuxt": "^3.3.3",
+    "nuxt-schema-org": "^2.1.2",
+    "nuxt-simple-sitemap": "^2.5.0"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@tinymce/tinymce-vue": "^4.0.7",
+    "nuxt-swiper": "^1.1.0",
+    "tinymce": "^6.3.1",
+    "vue-scrollto": "^2.20.0"
+  }
+}
